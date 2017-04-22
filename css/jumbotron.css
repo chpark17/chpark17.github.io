@@ -3,3 +3,8 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
+
+.jumbotron p {
+  text-align: center;
+  font-size: 10px;
+}
