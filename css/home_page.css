@@ -10,14 +10,40 @@ body {
 }
 
 .image {
-  width: 150px;
+  width: 250px;
   float: center;
   margin: auto;
 }
 
-.jumbotron img {
+.jumbotron .image img {
   margin-top: 30px;
   width: 100%;
+  float: center;
+}
+
+.jumbotron .wave {
+  margin: auto;
+  width: 200px;
+  float: center;
+}
+
+.jumbotron .wave img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.text {
+  width: 200px;
+  float: center;
+  margin: 10px auto;
+  color: dodgerblue;
+}
+
+.text p {
+  margin: 0;
+  padding: 5px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .navbar-header .navbar-brand {
