@@ -40,3 +40,31 @@ body {
 .btn-danger {
   float: right;
 }
+
+.sos {
+  width: 150px;
+  float: center;
+  margin: auto;
+}
+
+.sos img {
+  margin-top: 30px;
+  width: 100%;
+  float: center;
+}
+
+.ouch {
+  text-align: center;
+}
+
+.buttons-baby {
+  width: 150px;
+  float: center;
+  margin: auto;
+}
+
+.buttons-baby button {
+  margin-top: 30px;
+  width: 100%;
+  float: center;
+}
