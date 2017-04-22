@@ -5,6 +5,10 @@ body {
   background-color: #eee;
 }
 
+.jumbotron {
+  padding: 0;
+}
+
 .navbar-header .navbar-brand {
   padding-top: 0;
 }
