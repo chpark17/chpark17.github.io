@@ -21,11 +21,6 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="js/ie-emulation-modes-warning.js"></script>
-    <style>
-    .jumbotron .container p{
-      padding: 20px;
-    }
-    </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -36,11 +31,42 @@
 
   <body>
 
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><span><img src="img/logonotext.png" style="height:50px; top:0;">HEER</span></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1 class="text-center">Sorry!</h1>
-        <p class="text-center">Give us some feedback on our service.</p>
+        <div class="text">
+          <h1 class="text-center">HOME</h1>
+          <p style="font-size:14px; text-align:center;">What should we put here?</p>
+        </div>
+        <div class="buttons">
+          <a href="home.html"><button type="button" class="btn btn-success btn-lg">Yes</button></a>
+          <a href="disclaimer_denied.html"><button type="button" class="btn btn-danger btn-lg">No</button></a>
+        </div>
       </div>
   </div>
 </div>
