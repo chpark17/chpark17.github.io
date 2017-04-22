@@ -1,7 +1,7 @@
 $(function (){
     $("#jumbotron").load("html/home.html");
     
-    $("#disclaimer").click(function () {
+    $("#next").click(function () {
         $("#jumbotron").load("html/disclaimer.html");
     });
 })
