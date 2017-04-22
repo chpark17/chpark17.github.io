@@ -2,9 +2,15 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
+  background-color: #eee;
 }
 
 .jumbotron p {
   text-align: center;
   font-size: 10px;
+  padding: 0;
+}
+
+.navbar-header .navbar-brand {
+  padding-top: 0;
 }
