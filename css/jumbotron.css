@@ -80,3 +80,32 @@ body {
   width: 100%;
   float: center;
 }
+
+.inst {
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+.vid {
+  margin: auto;
+  float: center;
+  width: 320px;
+}
+
+.vid video {
+  float: center;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.buttons-testt {
+  width: 85px;
+  float: center;
+  margin: auto;
+}
+
+.buttons-testt button {
+  margin-top: 0px;
+  width: 100%;
+  float: center;
+}
