@@ -3,3 +3,7 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
+
+.navbar-header .navbar-brand {
+  padding-top: 0;
+}
