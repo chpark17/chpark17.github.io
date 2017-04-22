@@ -14,13 +14,17 @@ body {
 }
 
 .buttons {
-  width: 100%;
+  margin-top: 30px;
 }
 
 .buttons button {
-  float: center;
+  margin: 0 15%;
 }
 
 .btn-success {
-  margin: 10px 15%;
+  float: left;
+}
+
+.btn-danger {
+  float: right;
 }
