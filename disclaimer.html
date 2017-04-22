@@ -31,20 +31,44 @@
 
   <body>
 
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><span><img src="img/logonotext.png" style="height:50px; top:0;">HEER</span></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
         <h1 class="text-center">DISCLAIMER</h1>
-        <p>This app assist you in detecting abnormal/dangerous situations out of your perceptive abilities.  By utilizing this app, we believe that you will become more vigilant and adaptive to changes in your surroundings.</p>
-        <p>It is, however, your responsibility to take control of your life in these situations. HEER will not be held responsible for any losses involved for concerning parties.</p>
-          <div class="row">
-            <div class="span3 offset3">
-              <button type="button" class="btn btn-success btn-lg">Yes</button>
-            </div>
-            <div class="span3">
-              <button type="button" class="btn btn-danger btn-lg">No</button>
-            </div>
-          </div>
+        <p style="font-size:14px;">This app assist you in detecting abnormal/dangerous situations out of your perceptive abilities.  By utilizing this app, we believe that you will become more vigilant and adaptive to changes in your surroundings.</p>
+        <p style="font-size:14px;">It is, however, your responsibility to take control of your life in these situations. HEER will not be held responsible for any losses involved for concerning parties.</p>
+        
+        <div class="buttons">
+          <span>
+            <button type="button" class="btn btn-success btn-lg">Yes</button>
+            <button type="button" class="btn btn-danger btn-lg">No</button>
+          </span>
+        </div>
       </div>
   </div>
 </div>

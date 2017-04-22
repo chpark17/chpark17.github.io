@@ -12,3 +12,15 @@ body {
 .navbar-header .navbar-brand {
   padding-top: 0;
 }
+
+.buttons {
+  width: 100%;
+}
+
+.buttons button {
+  float: center;
+}
+
+.btn-success {
+  margin: 10px 15%;
+}
