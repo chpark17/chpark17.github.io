@@ -121,3 +121,22 @@ body {
   width: 100%;
   margin-top: 15px;
 }
+
+.asdf {
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 15px auto;
+  width: 200px;
+  height: 40px;
+}
+
+.asdf a {
+  font-size: 18px;
+  padding: 15px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.asdf li {
+  padding: 10px;
+}
